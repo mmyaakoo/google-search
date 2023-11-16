@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advanced Search - Google</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="image-search.html">Пошук зображень</a></li>
+                <li><a href="advanced-search.html">Розширений пошук</a></li>
+                <li><a href="lucky.html">Пощастило</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="advanced-search-container">
+            <label for="all-words">Find pages with all these words:</label>
+            <input type="text" id="all-words">
+
+            <label for="exact-phrase">Find pages with the exact phrase:</label>
+            <input type="text" id="exact-phrase">
+
+            <label for="any-words">Find pages with any of these words:</label>
+            <input type="text" id="any-words">
+
+            <label for="none-words">Find pages with none of these words:</label>
+            <input type="text" id="none-words">
+
+            <button onclick="advancedSearch()">Advanced Search</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Google</p>
+    </footer>
+
+    <script src="scriptadvanced.js"></script>
+</body>
+</html>
